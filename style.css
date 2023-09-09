@@ -84,7 +84,6 @@ a{
 #track{
     color:hsl(0, 0%, 59%);
 }
-#time{
-    margin-top: 15px;
+.time{
     font-weight: bold;
 }

@@ -1,7 +1,6 @@
 function displayDay(){
     var date = new Date();
     var day = date.getDay() + 1;
-    console.log(day);
     let dayResult="";
     switch(day){
         
@@ -33,10 +32,15 @@ function displayDay(){
             break;
     }
 
-    console.log(dayResult);
     let dayOutput=document.getElementById("day");
     dayOutput.innerHTML=dayResult;
-    console.log(dayOutput);
+}
+
+function displayUTC(){
+    const utcMilliseconds = new Date().getTime();
+let utcOutput=document.getElementById("UTCTime");
+utcOutput.innerHTML=utcMilliseconds;
 }
 
 displayDay();
+displayUTC();

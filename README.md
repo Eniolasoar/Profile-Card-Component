@@ -21,7 +21,7 @@ A Slack Profile Page Componenet that showcases specific personal and real-time d
 
 ### Links
 
-- Live Site URL:(https://profile-page-component.netlify.com)
+- Live Site URL:(https://profile-page-component.netlify.app)
 
 
 ### Built with

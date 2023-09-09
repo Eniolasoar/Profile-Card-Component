@@ -12,19 +12,22 @@
       <div class="container">
         <img src="images/image-victor.jpg" alt="">
         <div class="imageSection">
-          <img src="images/image-victor.jpg" alt="">
+          <img src="images/image-victor.jpg" alt="Eniola Anishe" data-testid="slackDisplayImage"> 
         </div>
 
         <div class="spacing"></div>
         <div class="profile-info">
-          <p id="username">Eniola Anishe</p>
-          <p id="track">Track: Frontend</p>
-          <p id="time">Saturday,03:23:02:22</p>
+          <p id="username" data-testid='slackUserName'>Eniola Anishe</p>
+          <p id="track" data-testid="myTrack">Track: Frontend</p>
+          <span id="day" data-testid="currentDayOfTheWeek"></span><span id="time" data-testid="currentUTCTime">03:23:02:22</span>
+          
         </div>
+
+        <script src="script.js"></script>
 
         <div class="link-section">
           <button>
-            <a href="">
+            <a href="" data-testid="githubURL">
               <i class="material-icon"></i>
               Open Github
             </a>

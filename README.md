@@ -16,12 +16,12 @@ A Slack Profile Page Componenet that showcases specific personal and real-time d
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 
 ### Links
 
-- Live Site URL:(https://your-live-site-url.com)
+- Live Site URL:(https://profile-page-component.com)
 
 
 ### Built with

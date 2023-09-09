@@ -16,7 +16,7 @@ A Slack Profile Page Componenet that showcases specific personal and real-time d
 
 ### Screenshot
 
-![](./screenshot.png)
+<img src="images/screenshot.png">
 
 
 ### Links

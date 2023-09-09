@@ -38,11 +38,11 @@ body{
  height: 150px;
     
     background-image: url(images/bg-pattern-card.svg);
+    max-width: 100%;
   
 }
 img{
     max-width: 100%;
-    
     position: absolute;
     bottom: -55px;
     left: 50%;
